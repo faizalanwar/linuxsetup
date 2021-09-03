@@ -1,0 +1,80 @@
+{
+	"name": "mayukaithemevsc",
+	"displayName": "Mayukai Theme",
+	"author": {
+		"name": "GulajavaMinistudio"
+	},
+	"publisher": "GulajavaMinistudio",
+	"description": "Dark theme based on mixing swatch of Ayu Theme, Andromeda Theme, Monokai, Material Colors, Original Gruvbox Darktooth Colors, and Dracula Colors.",
+	"version": "3.0.1",
+	"icon": "color-guide-mayukai.png",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"license": "MIT",
+	"categories": [
+		"Themes"
+	],
+	"homepage": "https://github.com/GulajavaMinistudio/Mayukai-Theme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GulajavaMinistudio/Mayukai-Theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mayukai Mirage",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-mirage-darker-color-theme.json"
+			},
+			{
+				"label": "Mayukai Semantic Mirage",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-mirage-color-theme-semantic.json"
+			},
+			{
+				"label": "Mayukai Mirage Gruvbox Darktooth",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-mirage-gruvbox-color-theme.json"
+			},
+			{
+				"label": "Mayukai Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-darker-color-theme.json"
+			},
+			{
+				"label": "Mayukai Mono",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-mono-color-theme.json"
+			},
+			{
+				"label": "Mayukai Alucard",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-alucard-color-theme.json"
+			},
+			{
+				"label": "Mayukai Sunset",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-sunset-color-theme.json"
+			},
+			{
+				"label": "Mayukai Reversal",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mayukai-reversal-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "ayu",
+				"label": "Mayukai Ayu",
+				"path": "./mayukai-ayu-icons.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9512804a-4de2-4348-9387-3c04e8c7876e",
+		"publisherId": "af362643-348b-4f74-a073-7152adfac622",
+		"publisherDisplayName": "GulajavaMinistudio",
+		"installedTimestamp": 1630500680561
+	}
+}

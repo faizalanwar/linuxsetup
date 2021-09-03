@@ -1,0 +1,62 @@
+fonts-twemoji-svginot (13.1.0-1) bionic; urgency=medium
+
+  * Update to twemoji 13.1.0.
+
+ -- Brad Erickson <eosrei@gmail.com>  Sun, 20 Jun 2021 16:58:17 -0700
+
+fonts-twemoji-svginot (13.0.1-1) bionic; urgency=medium
+
+  * Update to twemoji 13.0.1.
+
+ -- Brad Erickson <eosrei@gmail.com>  Sat, 12 Sep 2020 12:20:15 -0700
+
+fonts-twemoji-svginot (12.0.1-1) bionic; urgency=medium
+
+  * Update to twemoji 12.0.1.
+
+ -- Brad Erickson <eosrei@gmail.com>  Tue, 18 Apr 2019 11:42:12 -0700
+
+fonts-twemoji-svginot (11.2.0-1) bionic; urgency=medium
+
+  * Update to twemoji 11.2.0.
+  * Switched version numbers to match upstream twemoji which has switched
+    version numbers to match the unicode/emoji version numbers.
+
+ -- Brad Erickson <eosrei@gmail.com>  Thu, 1 Nov 2018 12:17:11 -0700
+
+fonts-twemoji-svginot (1.4-1) xenial; urgency=medium
+
+  * Update to twemoji 2.5.0.
+
+ -- Brad Erickson <eosrei@gmail.com>  Sun, 11 Mar 2018 09:56:15 -0700
+
+fonts-twemoji-svginot (1.3-1) trusty; urgency=medium
+
+  * Update to twemoji 2.3.0, Unicode 10.0, Emoji 5.0.
+
+ -- Brad Erickson <eosrei@gmail.com>  Mon, 29 May 2017 19:58:27 -0700
+
+fonts-twemoji-svginot (1.2-1) trusty; urgency=medium
+
+  * Rebuild with SVG transform (translate/scale) following SVGinOT spec.
+    Fixes Microsoft Edge, no visible change for Firefox/Gecko renderers.
+  * SVG: Add rainbow and pirate flag.
+  * SVG: Add twmoeji Emoji 4.0 draft graphics includes additions to
+    address gender equality, expanded professions, increased skin tone
+    support, family representations, and minor modifications to some
+    existing emojis.
+
+ -- Brad Erickson <eosrei@gmail.com>  Fri, 30 Sep 2016 17:03:37 -0700
+
+fonts-twemoji-svginot (1.1-1) trusty; urgency=medium
+
+  * Upgrade to twemoji v2.1.0 adding 72 Unicode 9.0 emoji.
+  * Add Unicode 9.0 power symbols.
+
+ -- Brad Erickson <eosrei@gmail.com>  Fri, 15 Jul 2016 11:12:35 -0700
+
+fonts-twemoji-svginot (1.0-1) trusty; urgency=medium
+
+  * Initial release.
+
+ -- Brad Erickson <eosrei@gmail.com>  Fri, 15 Apr 2016 21:55:30 -0700

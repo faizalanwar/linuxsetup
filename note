@@ -1,0 +1,19 @@
+xkill
+
+pacman -Qe
+
+sudo pacman -Qtdq
+sudo pacman -Rns $(pacman -Qtdq)
+sudo pacman -Scc
+
+sudo du -sh ~/.cache/
+rm -rf ~/.cache/*
+
+# nabil
+alt+f2 / alt +space ,
+ketik reboot atau shutdown
+
+
+CTRL ( or ) for split
+
+fn+f11 to wifi mode

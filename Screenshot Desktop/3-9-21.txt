@@ -1,0 +1,15 @@
+#system
+WM Theme: Sweet-Mars
+heme: Breath2 [Plasma], Wrk-PRO-Orange-1.5 [GTK2/3]
+Icons: kora-light-panel [Plasma], kora-light-panel [GTK2/3]
+Terminal: yakuake
+
+#panel
+yakuake
+plasma config saver
+icon only task manager
+global menu
+virtual desktop bar [https://github.com/wsdfhjxc/virtual-desktop-bar]
+system tray
+better inline clock
+

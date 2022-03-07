@@ -1,5 +1,14 @@
+------------------------------------------------------------------------------------
+//Basic Command
+------------------------------------------------------------------------------------
 xkill
 
+
+
+
+------------------------------------------------------------------------------------
+//Clear Cache
+------------------------------------------------------------------------------------
 pacman -Qe
 
 sudo pacman -Qtdq
@@ -9,11 +18,63 @@ sudo pacman -Scc
 sudo du -sh ~/.cache/
 rm -rf ~/.cache/*
 
-# nabil
-alt+f2 / alt +space ,
-ketik reboot atau shutdown
 
+
+
+
+------------------------------------------------------------------------------------
+// when error aur fetch
+------------------------------------------------------------------------------------
+rm -R /var/lib/pacman/sync
+pacman -Syu
+
+
+
+
+
+------------------------------------------------------------------------------------
+// basic shorcut
+------------------------------------------------------------------------------------
 
 CTRL ( or ) for split
+//onli work for kde
 
 fn+f11 to wifi mode
+
+
+
+------------------------------------------------------------------------------------
+// sub domain apache
+------------------------------------------------------------------------------------
+sudo nano /etc/httpd/conf/extra/httpd-vhosts.conf
+sudo nano /etc/hosts
+
+sudo systemctl restart httpd
+apachectl configtest
+
+
+/etc/httpd/conf/httpd.conf
+
+# If your host doesn't have a registered DNS name, enter its IP address here.
+#ServerName www.example.com:80
+    ServerName localhost
+    
+    
+    
+    
+    
+------------------------------------------------------------------------------------
+// Proxy xfce
+------------------------------------------------------------------------------------
+sudo nano /etc/environment
+sudo nano /etc/profile.d/proxy.sh
+
+fill with ->
+
+#export http_proxy=http://192.168.43.1:8080/
+#export https_proxy=http://192.168.43.1:8080/
+#export ftp_proxy=http://192.168.43.1:8080/
+#export rsync_proxy=http://192.168.43.1:8080/
+#export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
+
+

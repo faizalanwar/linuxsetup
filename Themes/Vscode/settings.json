@@ -1,0 +1,9 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "ayu",
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "editor.minimap.enabled": false,
+    "workbench.productIconTheme": "icons-carbon",
+    "window.zoomLevel": -1
+}

@@ -28,6 +28,9 @@ rm -rf ~/.cache/*
 rm -R /var/lib/pacman/sync
 pacman -Syu
 
+or
+
+rm /var/lib/pacman/db.lck
 
 
 

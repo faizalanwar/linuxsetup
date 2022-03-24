@@ -1,9 +1,15 @@
 {
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "ayu",
     "security.workspace.trust.untrustedFiles": "newWindow",
     "editor.minimap.enabled": false,
+    "window.zoomLevel": -1,
+    "editor.fontSize": 15,
+    "gitlens.defaultDateLocale": null,
+    "workbench.iconTheme": "ayu",
     "workbench.productIconTheme": "icons-carbon",
-    "window.zoomLevel": -1
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "editor.inlineSuggest.enabled": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false
 }

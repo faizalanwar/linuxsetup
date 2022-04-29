@@ -12,4 +12,8 @@
     "workbench.editor.showTabs": false,
     "editor.inlineSuggest.enabled": true,
     "bracket-pair-colorizer-2.depreciation-notice": false
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+
 }

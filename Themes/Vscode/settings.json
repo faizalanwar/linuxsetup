@@ -1,19 +1,59 @@
 {
-    "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "One Dark Pro",
-    "security.workspace.trust.untrustedFiles": "newWindow",
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": -1,
-    "editor.fontSize": 15,
-    "gitlens.defaultDateLocale": null,
-    "workbench.iconTheme": "ayu",
-    "workbench.productIconTheme": "icons-carbon",
-    "workbench.activityBar.visible": false,
-    "workbench.editor.showTabs": false,
-    "editor.inlineSuggest.enabled": true,
-    "bracket-pair-colorizer-2.depreciation-notice": false
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+"files.autoSave": "onFocusChange",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": { "source.fixAll": true },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.8,
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "'Operator Mono Lig','Fira Code','JetBrains Mono','Iosevka Mayukai Serif',Consolas, 'Courier New', monospace",
+  "workbench.iconTheme": "ayu",
+  "workbench.productIconTheme": "icons-carbon",
+  "editor.tabSize": 4,
+"editor.insertSpaces": true,
+"editor.detectIndentation": false,
 
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "window.zoomLevel": -1,
+  "editor.inlineSuggest.enabled": true,
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+"codesnap.containerPadding": "1em",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Faizalanwar": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": [
+        "--login"
+      ]
+    }
+  },
+  "settingsSync.ignoredExtensions": [
+
+  "alefragnani.Bookmarks"
+],
+"workbench.editor.showTabs": false,
+"workbench.activityBar.visible": false,
+"terminal.integrated.fontFamily": "monospace"
 }

@@ -80,4 +80,7 @@ fill with ->
 #export rsync_proxy=http://192.168.43.1:8080/
 #export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
 
+to update setting run
 
+. /etc/environment
+. /etc/profile.d/proxy.sh
